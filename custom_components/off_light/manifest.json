@@ -1,0 +1,16 @@
+{
+  "domain": "off_light",
+  "name": "Свет по движению",
+  "version": "3.4.0",
+  "documentation": "https://github.com/bezuglyy/off_light",
+  "issue_tracker": "https://github.com/bezuglyy/off_light/issues",
+  "config_flow": true,
+  "requirements": [],
+  "codeowners": [
+    "@bezuglyy"
+  ],
+  "iot_class": "local_push",
+  "loggers": [
+    "custom_components.off_light"
+  ]
+}

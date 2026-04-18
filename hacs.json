@@ -1,0 +1,10 @@
+{
+  "name": "Свет по движению",
+  "content_in_root": false,
+  "domains": [
+    "off_light"
+  ],
+  "homeassistant": "2025.1.0",
+  "render_readme": true,
+  "country": "RU"
+}

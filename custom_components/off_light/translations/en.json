@@ -1,0 +1,84 @@
+{
+  "title": "Motion Light",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Motion Light",
+        "description": "Turn devices on and off using one or multiple motion sensors.",
+        "data": {
+          "enabled": "Integration enabled",
+          "motion_sensors": "Motion sensors",
+          "enable_on_block": "Use turn-on block",
+          "on_targets": "Entities to turn on",
+          "on_delay_seconds": "Turn-on delay (sec)",
+          "enable_off_block": "Use turn-off block",
+          "off_targets": "Entities to turn off",
+          "delay_minutes": "Turn-off delay (min)",
+          "lights_only": "Only light domain entities",
+          "use_illuminance": "Use illuminance",
+          "illuminance_sensor": "Illuminance sensor",
+          "max_illuminance": "Maximum illuminance (lx)",
+          "enable_on_time_range": "Restrict turn-on by time",
+          "on_time_start": "On start time",
+          "on_time_end": "On end time",
+          "enable_off_time_range": "Restrict turn-off by time",
+          "off_time_start": "Off start time",
+          "off_time_end": "Off end time",
+          "min_illuminance": "Minimum illuminance (lx)"
+        }
+      }
+    },
+    "error": {
+      "need_motion_sensors": "Select at least one motion sensor.",
+      "need_on_targets": "Select targets to turn on.",
+      "need_off_targets": "Select targets to turn off.",
+      "need_one_block": "Enable at least one block: turn on or turn off.",
+      "need_illuminance_sensor": "Select an illuminance sensor.",
+      "internal_error": "Internal error. Check Home Assistant logs.",
+      "need_on_time_range": "Set both start and end time for turning on.",
+      "need_off_time_range": "Set both start and end time for turning off."
+    },
+    "abort": {
+      "already_configured": "The integration is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Настройки",
+        "description": "Настройки работы и диагностических фильтров.",
+        "data": {
+          "enabled": "Integration enabled",
+          "motion_sensors": "Motion sensors",
+          "enable_on_block": "Use turn-on block",
+          "on_targets": "Entities to turn on",
+          "on_delay_seconds": "Turn-on delay (sec)",
+          "enable_off_block": "Use turn-off block",
+          "off_targets": "Entities to turn off",
+          "delay_minutes": "Turn-off delay (min)",
+          "lights_only": "Only light domain entities",
+          "use_illuminance": "Use illuminance",
+          "illuminance_sensor": "Illuminance sensor",
+          "max_illuminance": "Maximum illuminance (lx)",
+          "enable_on_time_range": "Restrict turn-on by time",
+          "on_time_start": "On start time",
+          "on_time_end": "On end time",
+          "enable_off_time_range": "Restrict turn-off by time",
+          "off_time_start": "Off start time",
+          "off_time_end": "Off end time",
+          "min_illuminance": "Minimum illuminance (lx)"
+        }
+      }
+    },
+    "error": {
+      "need_motion_sensors": "Select at least one motion sensor.",
+      "need_on_targets": "Select targets to turn on.",
+      "need_off_targets": "Select targets to turn off.",
+      "need_one_block": "Enable at least one block: turn on or turn off.",
+      "need_illuminance_sensor": "Select an illuminance sensor.",
+      "internal_error": "Internal error. Check Home Assistant logs.",
+      "need_on_time_range": "Set both start and end time for turning on.",
+      "need_off_time_range": "Set both start and end time for turning off."
+    }
+  }
+}
